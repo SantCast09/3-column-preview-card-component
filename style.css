@@ -1,0 +1,83 @@
+body {
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    margin: 100px auto;
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+.car p {
+    width: 75%;
+}
+
+.car img {
+    width: 60px;
+}
+
+
+
+.box-color-1 {
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.box-color-2 {
+    background: hsl(184, 100%, 22%);
+}
+
+.box-color-3 {
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.car h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 35px;
+}
+
+.car p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', 'sans serif';
+}
+
+.button {
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background: hsla(0, 0%, 100%);
+    font-family: 'Lexend Deca', 'sans serif';
+}
+
+.button:hover {
+    background: hsla(0, 0%, 90%);
+    cursor: pointer;
+}
+
+.sedan button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
